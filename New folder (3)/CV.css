@@ -1,0 +1,14 @@
+section {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+#name {
+    margin-top: 200px;
+}
+
+#contacts {
+    list-style-type: none;
+    line-height: 30px;
+}
