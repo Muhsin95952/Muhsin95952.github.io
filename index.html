@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - John Doe</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">JD</a>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="menu-toggle" title="Toggle Navigation Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Hi, I'm <span>John Doe</span></h1>
+          <h2>Frontend Developer</h2>
+          <p>
+            I create beautiful, responsive websites with great user experiences.
+          </p>
+          <div class="cta-buttons">
+            <a href="#contact" class="btn primary">Contact Me</a>
+            <a href="#projects" class="btn secondary">View Work</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde"
+            alt="Profile Image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2"
+              alt="About Me"
+            />
+          </div>
+          <div class="about-text">
+            <h3>Who am I?</h3>
+            <p>
+              I'm a passionate frontend developer with 5+ years of experience
+              building modern web applications. I specialize in responsive
+              design, accessibility, and performance optimization.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3>CSS3</h3>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js"></i>
+            </div>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <h3>React</h3>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-node-js"></i>
+            </div>
+            <h3>Node.js</h3>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-python"></i>
+            </div>
+            <h3>Python</h3>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>C/C++</h3>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-plus"></i>
+            </div>
+            <h3>More</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+                alt="Project 1"
+              />
+            </div>
+            <div class="project-content">
+              <h3>E-commerce Platform</h3>
+              <p>
+                A full-featured online store with payment integration and
+                inventory management.
+              </p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+              <a href="#" class="project-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d"
+                alt="Project 2"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Task Management App</h3>
+              <p>
+                A productivity application for managing personal and team tasks.
+              </p>
+              <div class="project-tags">
+                <span>Vue.js</span>
+                <span>Firebase</span>
+              </div>
+              <a href="#" class="project-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5"
+                alt="Project 3"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Portfolio Website</h3>
+              <p>A responsive portfolio template for creative professionals.</p>
+              <div class="project-tags">
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="#" class="project-link"
+                >View Project <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title">My Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2020 - Present</div>
+            <div class="timeline-content">
+              <h3>Senior Frontend Developer</h3>
+              <h4>Tech Solutions Inc.</h4>
+              <p>
+                Lead a team of developers to build responsive web applications
+                using modern JavaScript frameworks.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2017 - 2020</div>
+            <div class="timeline-content">
+              <h3>Frontend Developer</h3>
+              <h4>Digital Creations</h4>
+              <p>
+                Developed and maintained client websites with focus on user
+                experience and accessibility.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="testimonial-slider">
+          <div class="testimonial-item">
+            <div class="testimonial-content">
+              <p>
+                "John's attention to detail and problem-solving skills are
+                exceptional. He delivered our project ahead of schedule."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <img
+                src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce"
+                alt="Client 1"
+              />
+              <div>
+                <h4>Sarah Johnson</h4>
+                <span>CEO, TechStart</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-content">
+              <p>
+                "Working with John was a pleasure. He understood our
+                requirements perfectly and implemented them flawlessly."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <img
+                src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5"
+                alt="Client 2"
+              />
+              <div>
+                <h4>Michael Chen</h4>
+                <span>Director, Digital Solutions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <span>john.doe@example.com</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <span>+1 (555) 123-4567</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <span>San Francisco, CA</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" placeholder="Subject" />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="social-links">
+          <!-- Social media links would go here -->
+        </div>
+        <p class="copyright">&copy; 2023 John Doe. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
