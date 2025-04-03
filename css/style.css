@@ -201,7 +201,7 @@ body {
 }
 
 .about-image img {
-  width: 100%;
+  width: 85%;
   border-radius: 1rem;
   box-shadow: var(--shadow-lg);
 }
