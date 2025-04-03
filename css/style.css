@@ -596,9 +596,9 @@ body {
   background-color: var(--white);
 }
 img.footer-image-size {
-  height: 80px;
-  width: 80px;
-  padding: 20px;
+  height: 5rem;
+  width: 5rem;
+  padding: 1rem;
 }
 footer {
   background-color: var(--white);
