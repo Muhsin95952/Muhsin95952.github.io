@@ -12,6 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css">
+
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -53,7 +57,7 @@
           </div>
         </div>
         <div class="hero-image">
-          <img src="./images/muhisn5.png" alt="Profile Image" />
+          <img src="./images/muhisn5.png" alt="Profile of Muhsin Shah" />
         </div>
       </div>
     </section>
@@ -112,62 +116,84 @@
       </div>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills" class="skills">
-      <div class="container">
-        <h2 class="section-title">My Skills</h2>
-        <div class="skills-grid">
-          <div class="skill-card">
-            <div class="skill-icon">
-              <i class="fab fa-html5"></i>
-            </div>
-            <h3>HTML5</h3>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon">
-              <i class="fab fa-css3-alt"></i>
-            </div>
-            <h3>CSS3</h3>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon">
-              <i class="fab fa-js"></i>
-            </div>
-            <h3>JavaScript</h3>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon">
-              <i class="fab fa-react"></i>
-            </div>
-            <h3>React</h3>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon">
-              <i class="fab fa-node-js"></i>
-            </div>
-            <h3>Node.js</h3>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon">
-              <i class="fab fa-python"></i>
-            </div>
-            <h3>Python</h3>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon">
-              <i class="fas fa-code"></i>
-            </div>
-            <h3>C/C++</h3>
-          </div>
-          <div class="skill-card">
-            <div class="skill-icon">
-              <i class="fas fa-plus"></i>
-            </div>
-            <h3>More</h3>
-          </div>
-        </div>
+  <div class="container">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-grid">
+
+      <!-- Scripting -->
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+        <h3>Scripting</h3>
+        <p>Bash, Python</p>
       </div>
-    </section>
+
+      <!-- Version Control -->
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+        <h3>Version Control</h3>
+        <p>Git, GitHub</p>
+      </div>
+
+      <!-- CI/CD -->
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-jenkins"></i></div>
+        <h3>CI/CD</h3>
+        <p>Jenkins, GitLab CI/CD, Azure DevOps</p>
+      </div>
+
+      <!-- Containerization -->
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-docker"></i></div>
+        <h3>Containerization</h3>
+        <p>Docker, Kubernetes</p>
+      </div>
+
+      <!-- Configuration Management -->
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+        <h3>Configuration Management</h3>
+        <p>Ansible, Terraform</p>
+      </div>
+
+      <!-- Monitoring & Logging -->
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+        <h3>Monitoring & Logging</h3>
+        <p>Prometheus, Grafana</p>
+      </div>
+
+      <!-- Cloud Platforms -->
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+        <h3>Cloud Platforms</h3>
+        <p>AWS, Azure</p>
+      </div>
+
+      <!-- DevSecOps -->
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+        <h3>Security (DevSecOps)</h3>
+        <p>SonarQube</p>
+      </div>
+
+      <!-- IaC -->
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
+        <h3>Infrastructure as Code</h3>
+        <p>Terraform, CloudFormation</p>
+      </div>
+
+      <!-- Testing -->
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-vial"></i></div>
+        <h3>Testing</h3>
+        <p>JUnit, Trivy</p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
@@ -182,15 +208,15 @@
               />
             </div>
             <div class="project-content">
-              <h3>3 Tier DevSecOps Project</h3>
+              <h3>E-commerce Platform</h3>
               <p>
-              3 Tier DevSecOps project having Frontend in reactJS, backend in nodeJS and MYSQL as database. 
+                A full-featured online store with payment integration and
+                inventory management.
               </p>
               <div class="project-tags">
-                <span>Docker</span>
-                <span>Jenkins</span>
-                <span>Kubernetes</span>
-                <span>AWS (EC2)</span>
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
               </div>
               <a href="#" class="project-link"
                 >View Project <i class="fas fa-arrow-right"></i
