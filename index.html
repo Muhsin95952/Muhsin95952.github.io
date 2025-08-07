@@ -12,9 +12,14 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css">
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css"
+    />
 
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -117,83 +122,110 @@
     </section>
 
     <section id="skills" class="skills">
-  <div class="container">
-    <h2 class="section-title">My Skills</h2>
-    <div class="skills-grid">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <!-- Scripting -->
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+            <h3>Scripting</h3>
+            <div class="skill-tags">
+              <span>Shell Scripting</span>
+              <span>Python</span>
+            </div>
+          </div>
 
-      <!-- Scripting -->
-      <div class="skill-card">
-        <div class="skill-icon"><i class="fas fa-terminal"></i></div>
-        <h3>Scripting</h3>
-        <p>Bash, Python</p>
+          <!-- Version Control -->
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+            <h3>Version Control</h3>
+            <div class="skill-tags">
+              <span>Git</span>
+              <span>GitHub</span>
+            </div>
+          </div>
+
+          <!-- CI/CD -->
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fab fa-jenkins"></i></div>
+            <h3>CI/CD</h3>
+            <div class="skill-tags">
+              <span>Jenkins</span>
+              <span>GitHub Actions</span>
+            </div>
+          </div>
+
+          <!-- Containerization -->
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fab fa-docker"></i></div>
+            <h3>Containerization</h3>
+            <div class="skill-tags">
+              <span>Docker</span>
+              <span>Kubernetes</span>
+            </div>
+          </div>
+
+          <!-- Configuration Management -->
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+            <h3>Configuration Management</h3>
+            <div class="skill-tags">
+              <span>Ansible</span>
+              <span>Terraform</span>
+            </div>
+          </div>
+
+          <!-- Monitoring & Logging -->
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>Monitoring & Logging</h3>
+            <div class="skill-tags">
+              <span>Prometheus</span>
+              <span>Grafana</span>
+            </div>
+          </div>
+
+          <!-- Cloud Platforms -->
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+            <h3>Cloud Platforms</h3>
+            <div class="skill-tags">
+              <span>AWS</span>
+              <span>Azure</span>
+            </div>
+          </div>
+
+          <!-- DevSecOps -->
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+            <h3>Security (DevSecOps)</h3>
+            <div class="skill-tags">
+              <span>SonarQube</span>
+            </div>
+          </div>
+
+          <!-- IaC -->
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
+            <h3>Infrastructure as Code</h3>
+            <div class="skill-tags">
+              <span>Terraform</span>
+              <span>CloudFormation</span>
+            </div>
+          </div>
+
+          <!-- Testing -->
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fas fa-vial"></i></div>
+            <h3>Testing</h3>
+            <div class="skill-tags">
+              <span>JUnit</span>
+              <span>Trivy</span>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <!-- Version Control -->
-      <div class="skill-card">
-        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
-        <h3>Version Control</h3>
-        <p>Git, GitHub</p>
-      </div>
-
-      <!-- CI/CD -->
-      <div class="skill-card">
-        <div class="skill-icon"><i class="fab fa-jenkins"></i></div>
-        <h3>CI/CD</h3>
-        <p>Jenkins, GitLab CI/CD, Azure DevOps</p>
-      </div>
-
-      <!-- Containerization -->
-      <div class="skill-card">
-        <div class="skill-icon"><i class="fab fa-docker"></i></div>
-        <h3>Containerization</h3>
-        <p>Docker, Kubernetes</p>
-      </div>
-
-      <!-- Configuration Management -->
-      <div class="skill-card">
-        <div class="skill-icon"><i class="fas fa-cogs"></i></div>
-        <h3>Configuration Management</h3>
-        <p>Ansible, Terraform</p>
-      </div>
-
-      <!-- Monitoring & Logging -->
-      <div class="skill-card">
-        <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
-        <h3>Monitoring & Logging</h3>
-        <p>Prometheus, Grafana</p>
-      </div>
-
-      <!-- Cloud Platforms -->
-      <div class="skill-card">
-        <div class="skill-icon"><i class="fas fa-cloud"></i></div>
-        <h3>Cloud Platforms</h3>
-        <p>AWS, Azure</p>
-      </div>
-
-      <!-- DevSecOps -->
-      <div class="skill-card">
-        <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
-        <h3>Security (DevSecOps)</h3>
-        <p>SonarQube</p>
-      </div>
-
-      <!-- IaC -->
-      <div class="skill-card">
-        <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
-        <h3>Infrastructure as Code</h3>
-        <p>Terraform, CloudFormation</p>
-      </div>
-
-      <!-- Testing -->
-      <div class="skill-card">
-        <div class="skill-icon"><i class="fas fa-vial"></i></div>
-        <h3>Testing</h3>
-        <p>JUnit, Trivy</p>
-      </div>
-
-    </div>
-  </div>
-</section>
+    </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
