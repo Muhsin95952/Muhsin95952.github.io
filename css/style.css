@@ -84,22 +84,41 @@ body {
 /* Hero Section Styles */
 .hero {
   padding: 8rem 0 4rem;
+  background: linear-gradient(135deg, #f0f4f8, #e0e7ff);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .hero .container {
   display: flex;
   align-items: center;
   gap: 3rem;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-content {
   flex: 1;
+  animation: slideInLeft 1s ease-out;
 }
 
 .hero-content h1 {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: #333;
 }
 
 .hero-content h1 span {
@@ -128,7 +147,9 @@ body {
   border-radius: 0.5rem;
   font-weight: 500;
   text-decoration: none;
-  transition: var(--transition);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 .btn.primary {
@@ -154,6 +175,7 @@ body {
   flex: 1;
   display: flex;
   justify-content: center;
+  animation: fadeInRight 1s ease-out;
 }
 
 .hero-image img {
@@ -161,7 +183,45 @@ body {
   max-width: 400px;
   border-radius: 1rem;
   box-shadow: var(--shadow-lg);
+  transition: transform 0.3s ease;
 }
+
+.hero-image img:hover {
+  transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 
 /* Section Common Styles */
 .section-title {
